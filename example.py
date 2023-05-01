@@ -2,7 +2,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 
 # tokenizer = AutoTokenizer.from_pretrained(r"dmayhem93/toolformer_v0_epoch2"))
-tokenizer = AutoTokenizer.from_pretrained(r"/scratch/yerong/.cache/huggingface/transformers/models--dmayhem93--toolformer_v0_epoch2/snapshots/ccc07ac82b35778a218a806bb712326a53e5c5f9"))
+tokenizer = AutoTokenizer.from_pretrained(r"/scratch/yerong/.cache/huggingface/transformers/models--dmayhem93--toolformer_v0_epoch2/snapshots/ccc07ac82b35778a218a806bb712326a53e5c5f9")
 
 model = AutoModelForCausalLM.from_pretrained(
     r"dmayhem93/toolformer_v0_epoch2",
