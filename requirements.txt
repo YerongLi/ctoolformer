@@ -6,3 +6,4 @@ langchain
 cohere
 accelerate
 evaluate
+deepspeed
