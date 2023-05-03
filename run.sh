@@ -1,4 +1,4 @@
-deepspeed train_gptj_toolformer.py --model_name_or_path=EleutherAI/gpt-j-6B --per_device_train_batch_size=4 \
+deepspeed train_gptj_toolformer.py --model_name_or_path=EleutherAI/gpt-j-6B --per_device_train_batch_size=1 \
   --num_train_epochs 10 --save_strategy=epoch --output_dir=finetune_toolformer_v0 --report_to "wandb" \
   --dataset_name dmayhem93/toolformer-v0-postprocessed --tokenizer_name customToolformer \
   --block_size 2048 --gradient_accumulation_steps 1 --do_train --do_eval --evaluation_strategy=epoch \
