@@ -161,27 +161,6 @@ def generate_homework_json(ids):
     # Write the JSON object to a file
 
 
-
-
-
-# def reorder_zones(ordered_ids, json_var):
-#     zones = json_var["zones"]
-#     # print([z['title'] for z in zones])
-#     ordered_zones = []
-#     for id in ordered_ids:
-#         for zone in zones:
-#             for question in zone["questions"]:
-#                 if question["id"] == id:
-#                     ordered_zones.append(zone)
-#                     zones.remove(zone)
-#                     break
-#         # else:
-#         #     pass
-#         #     raise ValueError(f"ID '{id}' not found in JSON variable")
-#     ordered_zones += zones
-#     json_var["zones"] = ordered_zones
-#     return json_var
-
 print('OCaml/basic_environment_calculations/VSCodeQuestions/basicEnv0' in all_map)
 ans = generate_homework_json(all_map)
 
